@@ -43,7 +43,7 @@ docs/screenshots/  bukti pengujian
 |---|---|---|---|---|
 | TS-01 | Access Denied | `DB_PASSWORD` di `.env` salah | Kembalikan kredensial benar, restart server | [07-error-access-denied.png](docs/screenshots/07-error-access-denied.png) |
 | TS-02 | Bind parameters undefined | Atribut `name` form tidak cocok dengan controller | Samakan `name` di form dengan variabel controller | [08-error-undefined-bind.png](docs/screenshots/08-error-undefined-bind.png) |
-| TS-03 | Pool exhaustion | `connectionLimit: 1` dan koneksi tidak di-release | Batas pool 10, pakai `db.query()` dari pool | (docs/screenshots/09-pool-exhaustion.png) |
+| TS-03 | Pool exhaustion | `connectionLimit: 1` dan koneksi tidak di-release | Batas pool 10, pakai `db.query()` dari pool | (09-pool-exhaustion.png) |
 
 ## Bukti Pengujian
 ![TC-01](docs/screenshots/01-db-pool-connection.png)
