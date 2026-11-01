@@ -46,9 +46,30 @@ docs/screenshots/  bukti pengujian
 | TS-03 | Pool exhaustion | `connectionLimit: 1` dan koneksi tidak di-release | Batas pool 10, pakai `db.query()` dari pool | [09-pool-exhaustion.png](docs/screenshots/09-pool-exhaustion.png) |
 
 ## Bukti Pengujian
+
+### TC-01: Koneksi Pool
 ![TC-01](docs/screenshots/01-db-pool-connection.png)
+
+### TC-02: Read (All)
 ![TC-02](docs/screenshots/02-read-select-render.png)
+
+### TC-03: Create dan PRG
 ![TC-03](docs/screenshots/03-create-insert-prg.png)
+
+### TC-04: Update
 ![TC-04](docs/screenshots/04-update-param-redirect.png)
+
+### TC-05: Delete
 ![TC-05](docs/screenshots/05-delete-feedback.png)
+
+### TC-06: Keamanan (SQL Injection)
 ![TC-06](docs/screenshots/06-sql-injection-mitigation.png)
+
+### TS-01: Access Denied
+![TS-01](docs/screenshots/07-error-access-denied.png)
+
+### TS-02: Bind Parameters Undefined
+![TS-02](docs/screenshots/08-error-undefined-bind.png)
+
+### TS-03: Pool Exhaustion
+![TS-03](docs/screenshots/09-pool-exhaustion.png)
